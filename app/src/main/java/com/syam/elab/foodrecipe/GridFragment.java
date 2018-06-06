@@ -1,4 +1,4 @@
-package com.kottland.elab.recipeapphd;
+package com.syam.elab.foodrecipe;
 
 
 import android.content.Intent;
@@ -11,9 +11,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class GridFragment extends Fragment {
 
 
@@ -30,9 +28,7 @@ public class GridFragment extends Fragment {
         GridView gridView = (GridView) view.findViewById(R.id.gridview);
         gridView.setAdapter(new MyGridAdapter(getActivity()));
 
-        /**
-         * On Click event for Single Gridview Item
-         * */
+
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View v,

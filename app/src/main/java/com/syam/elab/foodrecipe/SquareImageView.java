@@ -1,4 +1,4 @@
-package com.kottland.elab.recipeapphd;
+package com.syam.elab.foodrecipe;
 
 import android.content.Context;
 import android.util.AttributeSet;

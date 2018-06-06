@@ -58,7 +58,7 @@
                 android:layout_margin="@dimen/activity_horizontal_margin"
                 android:text="sample app"
                 android:textColor="#ffffff"
-                android:textSize="32sp"
+                android:textSize="28sp"
                 app:layout_collapseMode="pin" />
 
 

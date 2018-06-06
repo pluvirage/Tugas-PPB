@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kottland.elab.recipeapphd.GridFragment">
+    tools:context="com.syam.elab.foodrecipe.GridFragment">
 
     <GridView
         android:layout_width="match_parent"

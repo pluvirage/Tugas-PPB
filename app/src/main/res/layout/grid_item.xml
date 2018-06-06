@@ -5,7 +5,7 @@
     android:layout_height="160dp"
     android:padding="2dp"
     android:background="#fff">
-    <com.kottland.elab.recipeapphd.SquareImageView
+    <com.syam.elab.foodrecipe.SquareImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/picture"

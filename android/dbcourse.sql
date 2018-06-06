@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 19 Bulan Mei 2018 pada 15.02
+-- Waktu pembuatan: 06 Jun 2018 pada 21.24
 -- Versi server: 10.1.31-MariaDB
 -- Versi PHP: 7.2.3
 
@@ -32,17 +32,15 @@ CREATE TABLE `users` (
   `id` int(4) NOT NULL,
   `username` varchar(32) NOT NULL,
   `password` varchar(64) NOT NULL,
-  `email` varchar(32) NOT NULL,
-  `accountname` varchar(32) NOT NULL,
-  `status` int(4) NOT NULL DEFAULT '1'
+  `email` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data untuk tabel `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `password`, `email`, `accountname`, `status`) VALUES
-(1, 'admin', 'admin', 'syamsulfahri.hadi097@gmail.com', 'Admin', 1);
+INSERT INTO `users` (`id`, `username`, `password`, `email`) VALUES
+(1, 'syamsul', '123', 'syamsulfahri.hadi097@gmail.com');
 
 --
 -- Indexes for dumped tables

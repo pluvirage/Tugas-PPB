@@ -1,4 +1,4 @@
-package com.kottland.elab.recipeapphd;
+package com.syam.elab.foodrecipe;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -18,28 +18,29 @@ public final class MyGridAdapter extends BaseAdapter {
     private final LayoutInflater mInflater;
 
     public String[] mRecipeTitle = {
-            "Cinnamon_rolls",
-            "Banana_bread",
-            "Cupcakes",
-            "German_pancakes",
-            "French_toast",
-            "Blintzes",
-            "Donut_holes",
-            "Biscuits",
+            "BBQ Beef Brisket Sandwiches",
+            "Black Bean Burritos",
+            "Cauliflower Crusted Quiche With Smoked Sausage",
+            "Quick Beef Stir Fry",
+            "Spicy Tarragon Yogurt Chicken",
+            "Thai Coconut Soup",
+            "bulgogi",
+            "Boars Head Bold Ichiban Teriyaki",
 
 
     };
 
     public  String[] mDescriptionTXT = {
 
-            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque. ",
-            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque. ",
-            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque. ",
-            " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus elit, tincidunt nec turpis sed, accumsan iaculis ipsum. Nulla at augue auctor, tristique erat in, ultricies nunc. Mauris eget metus leo. Ut in mi lacinia, mattis nisl non, ultrices risus. Vestibulum aliquet aliquam ipsum ut ullamcorper. Pellentesque fringilla, massa vel rutrum consequat, nulla velit fermentum dolor, sed scelerisque. ",
+            "Most Bulgogi recipes call for crushed pear. This is for tenderizing the meat. My boyfriend's Korean mother says Coca-Cola® can also be used for the same purpose. This recipe uses very thin-sliced meat so tenderization isn't necessary. Sugar is used instead.",
+            "Quick and easy. I make this on my busiest weeknights.",
+            "Slow-cooked seasoned brisket shredded and prepared for tantalizing barbeque sandwiches. Enjoy on your favorite bread.",
+            "A unique cauliflower crust serves as the base of this cheesy quiche featuring smoked sausage and sweet peppers.",
+            "Authentic, bold, and delicious Thai flavors make this soup irresistible! This is the best Thai coconut soup I've had. You won't be disappointed with this one! Serve over steamed rice.",
+            "These burritos are soooo good, you'll want to have them every night.",
+            "Tarragon is one of the most aromatic and sweetest herbs that there is. It's good with chicken and really nice in a marinade like this. A good way to mix up the same old grilled chicken recipes.",
+            "Mix fresh vegetables and fruit like celery and Mandarin oranges with the savory taste of Bold® Ichiban Teriyaki™ Style Chicken for an effortlessly delicious flavor journey.",
+
 
     };
 
@@ -63,8 +64,8 @@ public final class MyGridAdapter extends BaseAdapter {
     public Integer[] mThumbIds = {
 
 
-            R.drawable.recipe, R.drawable.health_food, R.drawable.healthy_food2, R.drawable.recipe,
-            R.drawable.recipe, R.drawable.health_food, R.drawable.healthy_food2, R.drawable.recipe,
+            R.mipmap.bbq_beef_brisket_sandwiches   , R.mipmap.black_bean_burritos, R.mipmap.cauliflower_crusted_quiche_with_smoked_sausage,
+            R.mipmap.quick_beef_stir_fry, R.mipmap.spicy_tarragon_yogurt_chicken, R.mipmap.thai_coconut_soup, R.mipmap.bulgogi, R.mipmap.boars_head_bold_ichiban_teriyaki,
 
 
     };
@@ -75,11 +76,14 @@ public final class MyGridAdapter extends BaseAdapter {
 
 
 
-        mItems.add(new Item("Cinnamon_rolls", R.drawable.recipe ) );  mItems.add(new Item("Banana_bread", R.drawable.health_food ) );
-        mItems.add(new Item("Cupcakes", R.drawable.healthy_food2 ) );  mItems.add(new Item("German_pancakes", R.drawable.recipe ) );
-        mItems.add(new Item("French_toast", R.drawable.recipe ) );  mItems.add(new Item("Blintzes", R.drawable.health_food ) );
-        mItems.add(new Item("Biscuits", R.drawable.healthy_food2 ) );  mItems.add(new Item("Biscuits", R.drawable.recipe ) );
-
+        mItems.add(new Item("BBQ Beef Brisket Sandwiches", R.mipmap.bbq_beef_brisket_sandwiches ) );
+        mItems.add(new Item("Black Bean Burritos", R.mipmap.black_bean_burritos ) );
+        mItems.add(new Item("Cauliflower Crusted Quiche with Smoked Sausage", R.mipmap.cauliflower_crusted_quiche_with_smoked_sausage ) );
+        mItems.add(new Item("Quick Beef Stir Fry", R.mipmap.quick_beef_stir_fry ) );
+        mItems.add(new Item("Spicy Tarragon Yogurt Chicken", R.mipmap.spicy_tarragon_yogurt_chicken ) );
+        mItems.add(new Item("Thailand Coconut Soup", R.mipmap.thai_coconut_soup ) );
+        mItems.add(new Item("Easy Bulgogi", R.mipmap.bulgogi ) );
+        mItems.add(new Item("Boars Head Bold Ichiban Teriyaki", R.mipmap.boars_head_bold_ichiban_teriyaki ) );
 
 
     }

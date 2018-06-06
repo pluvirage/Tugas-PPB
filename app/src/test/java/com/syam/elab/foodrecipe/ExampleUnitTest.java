@@ -1,4 +1,4 @@
-package com.kottland.elab.recipeapphd;
+package com.syam.elab.foodrecipe;
 
 import org.junit.Test;
 

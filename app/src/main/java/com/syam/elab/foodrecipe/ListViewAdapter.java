@@ -1,4 +1,4 @@
-package com.kottland.elab.recipeapphd;
+package com.syam.elab.foodrecipe;
 
 
 import android.content.Context;
@@ -24,17 +24,25 @@ public class ListViewAdapter extends BaseAdapter {
         mInflater = LayoutInflater.from(context);
 
 
-        mItems.add(new ListViewAdapter.Item("Cinnamon_rolls", R.drawable.recipe ) );  mItems.add(new ListViewAdapter.Item("Banana_bread", R.drawable.health_food ) );
-        mItems.add(new ListViewAdapter.Item("Cupcakes", R.drawable.healthy_food2 ) );  mItems.add(new ListViewAdapter.Item("German_pancakes", R.drawable.recipe ) );
-        mItems.add(new ListViewAdapter.Item("French_toast", R.drawable.recipe ) );  mItems.add(new ListViewAdapter.Item("Blintzes", R.drawable.health_food ) );
-        mItems.add(new ListViewAdapter.Item("Biscuits", R.drawable.healthy_food2 ) );  mItems.add(new ListViewAdapter.Item("Biscuits", R.drawable.recipe ) );
+        mItems.add(new ListViewAdapter.Item("BBQ Beef Brisket Sandwiches", R.mipmap.bbq_beef_brisket_sandwiches ) );
+        mItems.add(new ListViewAdapter.Item("Black Bean Burritos", R.mipmap.black_bean_burritos ) );
+        mItems.add(new ListViewAdapter.Item("Cauliflower Crusted Quiche with Smoked Sausage", R.mipmap.cauliflower_crusted_quiche_with_smoked_sausage ) );
+        mItems.add(new ListViewAdapter.Item("Quick Beef Stir Fry", R.mipmap.quick_beef_stir_fry ) );
+        mItems.add(new ListViewAdapter.Item("Spicy Tarragon Yogurt Chicken", R.mipmap.spicy_tarragon_yogurt_chicken ) );
+        mItems.add(new ListViewAdapter.Item("Thailand Coconut Soup", R.mipmap.thai_coconut_soup ) );
+        mItems.add(new ListViewAdapter.Item("Easy Bulgogi", R.mipmap.bulgogi ) );
+        mItems.add(new ListViewAdapter.Item("Boars Head Bold Ichiban Teriyaki", R.mipmap.boars_head_bold_ichiban_teriyaki ) );
 
 
 
-        mItems.add(new Item("Cinnamon_rolls", R.drawable.recipe ) );  mItems.add(new Item("Banana_bread", R.drawable.health_food ) );
-        mItems.add(new Item("Cupcakes", R.drawable.healthy_food2 ) );  mItems.add(new Item("German_pancakes", R.drawable.recipe ) );
-        mItems.add(new Item("French_toast", R.drawable.recipe ) );  mItems.add(new Item("Blintzes", R.drawable.health_food ) );
-        mItems.add(new Item("Biscuits", R.drawable.healthy_food2 ) );  mItems.add(new Item("Biscuits", R.drawable.recipe ) );
+        mItems.add(new Item("BBQ Beef Brisket Sandwiches", R.mipmap.bbq_beef_brisket_sandwiches ) );
+        mItems.add(new Item("Black Bean Burritos", R.mipmap.black_bean_burritos ) );
+        mItems.add(new Item("Cauliflower Crusted Quiche with Smoked Sausage", R.mipmap.cauliflower_crusted_quiche_with_smoked_sausage ) );
+        mItems.add(new Item("Quick Beef Stir Fry", R.mipmap.quick_beef_stir_fry ) );
+        mItems.add(new Item("Spicy Tarragon Yogurt Chicken", R.mipmap.spicy_tarragon_yogurt_chicken ) );
+        mItems.add(new Item("Thailand Coconut Soup", R.mipmap.thai_coconut_soup ) );
+        mItems.add(new Item("Easy Bulgogi", R.mipmap.bulgogi ) );
+        mItems.add(new Item("Boars Head Bold Ichiban Teriyaki", R.mipmap.boars_head_bold_ichiban_teriyaki ) );
 
 
 
